@@ -4,7 +4,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import './index.css';
 import DashBoard from './DashBoard.jsx';
-import UserForm from './pages/userForm.jsx';
+import UserForm from './UserForm.jsx';
 
 const router = createBrowserRouter([
   {

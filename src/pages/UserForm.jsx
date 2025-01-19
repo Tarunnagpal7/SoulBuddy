@@ -129,7 +129,7 @@ function UserForm() {
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:3000/api/astrologer", {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_API}/api/astrologer`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
